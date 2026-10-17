@@ -193,11 +193,18 @@
     const d = D();
     if (v.view === "thread") {
       const t = d.messages.find((x) => x.id === v.id);
-      let body = t.deleted ? `<div class="delbanner">Recently Deleted · this conversation will be removed permanently in 29 days</div>` : "";
+      let body = t.deleted ? `<div class="delbanner">Recently Deleted${t.delnote ? " · " + esc(t.delnote) : ""} · this conversation will be removed permanently in 29 days</div>` : "";
+      if (t.note) body += `<div class="tnote">${esc(t.note)}</div>`;
       body += `<div class="chat col">`;
       t.chunks.forEach((ch) => {
         body += `<div class="when ${ch.unread ? "unr" : ""}">${esc(ch.when || "")}${ch.unread ? " · Unread" : ""}</div>`;
         ch.bubbles.forEach((b) => {
+          if (b.from) body += `<div class="bfrom ${b.dir}">${esc(b.from)}</div>`;
+          if (b.del) {  // a deleted-flagged message, recovered: shown struck through and labelled
+            body += `<div class="bub ${b.dir} del">${esc(b.text)}</div><div class="bstat ${b.dir} delt">🗑 Deleted message${b.time ? " · " + esc(b.time) : ""}</div>`;
+            if (b.status && !/deleted/i.test(b.status)) body += `<div class="bstat ${b.dir}">${esc(b.status)}</div>`;
+            return;
+          }
           if (b.img) {
             const kind = b.photo || "screenshot";
             const ph = d.photos.find((p) => p.kind === kind) || { kind };
@@ -215,7 +222,7 @@
     const list = (ts) => ts.map((t) => {
       const ch = t.chunks[t.chunks.length - 1] || { bubbles: [] }; const lb = ch.bubbles[ch.bubbles.length - 1] || {};
       const unread = t.chunks.some((c) => c.unread);
-      const prev = lb.img ? "📷 Image" : lb.text || "";
+      const prev = lb.img ? "📷 Image" : lb.del ? "🗑 Deleted message" : lb.text || "";
       return `<button class="row ${unread ? "unread" : ""}" data-act="push" data-app="messages" data-view="thread" data-id="${t.id}">${avatar(t.name, 46)}<div class="main"><div class="t1"><span>${esc(t.name)}</span><small>${esc(ch.when || "")}</small></div><div class="t3">${esc(prev)}</div></div></button>`;
     }).join("");
     const q = S.q;

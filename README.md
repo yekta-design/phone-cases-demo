@@ -1,6 +1,6 @@
 # Found Phone · Case Files (demo)
 
-Playable found-phone mystery demo: 13 fictional cases. Unlock a stranger's phone, dig through
+Playable found-phone mystery demo: 14 fictional cases. Unlock a stranger's phone, dig through
 Messages, Photos, Maps, Bank and more, and answer the client's questions.
 
 Play: https://yekta-design.github.io/phone-cases-demo/

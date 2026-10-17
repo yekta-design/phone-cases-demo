@@ -120,6 +120,10 @@ input,textarea{font:inherit}
 .btime.out{align-self:flex-end}.btime.in{align-self:flex-start}
 .bstat{font-size:11px;color:#8a8a8e;align-self:flex-end;margin:0 6px 4px;font-style:italic;max-width:80%;text-align:right}
 .bstat.in{align-self:flex-start;text-align:left}
+.bub.del{background:transparent;color:#8a8a8e;border:1.5px dashed #c7c7cc;text-decoration:line-through;text-decoration-color:rgba(142,142,147,.6)}
+.bstat.delt{color:#ff3b30;font-style:normal}
+.bfrom{font-size:11px;color:#8a8a8e;margin:6px 12px 0}.bfrom.in{align-self:flex-start}.bfrom.out{align-self:flex-end}
+.tnote{text-align:center;font-size:12px;color:#8a8a8e;padding:8px 16px 0}
 .col{display:flex;flex-direction:column}
 .delbanner{background:#fff4e5;color:#8a5300;font-size:13px;padding:8px 14px;text-align:center}
 /* mail */
