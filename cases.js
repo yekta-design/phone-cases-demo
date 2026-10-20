@@ -759,35 +759,6 @@ window.CASES = [
      "seq": 1
     },
     {
-     "id": "t1",
-     "name": "Callum Varga",
-     "sub": null,
-     "group": false,
-     "unsaved": false,
-     "deleted": true,
-     "chunks": [
-      {
-       "when": "March 25",
-       "bubbles": [
-        {
-         "dir": "in",
-         "text": "Keep out of it. €500 and you never saw anything.",
-         "time": null
-        },
-        {
-         "dir": "out",
-         "text": "Keep your money.",
-         "status": "Deleted March 26"
-        }
-       ],
-       "sort": 0,
-       "unread": false,
-       "seq": 7
-      }
-     ],
-     "seq": 2
-    },
-    {
      "id": "t2",
      "name": "+44 7700 900418",
      "sub": null,
@@ -811,7 +782,7 @@ window.CASES = [
        "seq": 11
       }
      ],
-     "seq": 3
+     "seq": 2
     },
     {
      "id": "t3",
@@ -835,7 +806,7 @@ window.CASES = [
        "seq": 13
       }
      ],
-     "seq": 4
+     "seq": 3
     },
     {
      "id": "t4",
@@ -944,6 +915,35 @@ window.CASES = [
      ],
      "filler": true,
      "seq": 0
+    },
+    {
+     "id": "t1",
+     "name": "Callum Varga",
+     "sub": null,
+     "group": false,
+     "unsaved": false,
+     "deleted": true,
+     "chunks": [
+      {
+       "when": "March 25",
+       "bubbles": [
+        {
+         "dir": "in",
+         "text": "Keep out of it. €500 and you never saw anything.",
+         "time": null
+        },
+        {
+         "dir": "out",
+         "text": "Keep your money.",
+         "status": "Deleted March 26"
+        }
+       ],
+       "sort": 0,
+       "unread": false,
+       "seq": 7
+      }
+     ],
+     "seq": -1
     }
    ],
    "mail": [
@@ -6926,35 +6926,6 @@ window.CASES = [
      "seq": 2
     },
     {
-     "id": "t1",
-     "name": "Halima 2",
-     "sub": null,
-     "group": false,
-     "unsaved": false,
-     "deleted": true,
-     "chunks": [
-      {
-       "when": "Aug 24 · thread deleted Aug 25 01:12",
-       "bubbles": [
-        {
-         "dir": "out",
-         "text": "Chest feels tight. Pls get my BP tablets from the car.",
-         "time": "23:55"
-        },
-        {
-         "dir": "in",
-         "text": "Just lie down, you'll be fine.",
-         "time": "23:57"
-        }
-       ],
-       "sort": 1,
-       "unread": false,
-       "seq": 6
-      }
-     ],
-     "seq": 3
-    },
-    {
      "id": "t2",
      "name": "Gift Adeyemi",
      "sub": null,
@@ -7001,7 +6972,7 @@ window.CASES = [
        "seq": 12
       }
      ],
-     "seq": 4
+     "seq": 3
     },
     {
      "id": "t4",
@@ -7102,6 +7073,35 @@ window.CASES = [
      ],
      "filler": true,
      "seq": 0
+    },
+    {
+     "id": "t1",
+     "name": "Halima 2",
+     "sub": null,
+     "group": false,
+     "unsaved": false,
+     "deleted": true,
+     "chunks": [
+      {
+       "when": "Aug 24 · thread deleted Aug 25 01:12",
+       "bubbles": [
+        {
+         "dir": "out",
+         "text": "Chest feels tight. Pls get my BP tablets from the car.",
+         "time": "23:55"
+        },
+        {
+         "dir": "in",
+         "text": "Just lie down, you'll be fine.",
+         "time": "23:57"
+        }
+       ],
+       "sort": 1,
+       "unread": false,
+       "seq": 6
+      }
+     ],
+     "seq": -1
     }
    ],
    "mail": [
@@ -10268,160 +10268,6 @@ window.CASES = [
    "photos": [
     {
      "count": 1,
-     "kind": "scene",
-     "caption": "Garnet's photo: Jago on the slipway wall, mooring gear piled beside him",
-     "date": "Sat 6 Jun 22:57",
-     "exif": "Taken 22:57 on Garnet's phone · saved here Saturday 23:21 from Garnet's chat"
-    },
-    {
-     "count": 1,
-     "kind": "food",
-     "caption": "the crab thing",
-     "date": "Sat 6 Jun 20:40",
-     "exif": "Sat 6 Jun 20:40, Ferrier's"
-    },
-    {
-     "count": 1,
-     "kind": "selfie",
-     "caption": "Ferrier's corner table, Wenna pulling a face",
-     "date": "Sat 6 Jun 20:31",
-     "exif": "Sat 6 Jun 20:31, Ferrier's"
-    },
-    {
-     "count": 1,
-     "kind": "scene",
-     "caption": "launch back on her mooring after the service",
-     "date": "Wed 3 Jun",
-     "exif": "Wed 3 Jun 10:05, Merrowstone"
-    },
-    {
-     "count": 1,
-     "kind": "scene",
-     "caption": "Canvas & Pole ground plan, marquee pegged out in chalk",
-     "date": "Tue 2 Jun",
-     "exif": "Tue 2 Jun 11:00, Merrowstone lawn"
-    },
-    {
-     "count": 1,
-     "kind": "street",
-     "caption": "Polgrain harbour at low water",
-     "date": "Tue 2 Jun",
-     "exif": "Tue 2 Jun 07:10, harbour steps"
-    },
-    {
-     "count": 1,
-     "kind": "coffee",
-     "caption": "flask of tea on the harbour wall",
-     "date": "Tue 2 Jun",
-     "exif": "Tue 2 Jun 07:00, harbour steps"
-    },
-    {
-     "count": 1,
-     "kind": "beach",
-     "caption": "Gerald the seal",
-     "date": "Tue 2 Jun",
-     "exif": "Tue 2 Jun 06:33, harbour steps"
-    },
-    {
-     "count": 1,
-     "kind": "sunset",
-     "caption": "golden hour on the slipway",
-     "date": "Mon 1 Jun",
-     "exif": "Mon 1 Jun 20:58, Merrowstone slipway"
-    },
-    {
-     "count": 1,
-     "kind": "plant",
-     "caption": "Mum Caddick's sweet peas, sent by Ruan",
-     "date": "Mon 1 Jun",
-     "exif": "Screenshot, Mon 1 Jun"
-    },
-    {
-     "count": 1,
-     "kind": "scene",
-     "caption": "Ruan planing an oar in the workshop",
-     "date": "Sun 31 May",
-     "exif": "Sun 31 May 15:20, Caddick boatyard"
-    },
-    {
-     "count": 1,
-     "kind": "food",
-     "caption": "Wenna's 'lamb' (pasta)",
-     "date": "Sat 30 May",
-     "exif": "Sat 30 May 19:30, Selkie Row"
-    },
-    {
-     "count": 1,
-     "kind": "lights",
-     "caption": "Trevail wedding, first dance",
-     "date": "Wed 27 May",
-     "exif": "Wed 27 May 21:40, Merrowstone Boathouse"
-    },
-    {
-     "count": 1,
-     "kind": "lights",
-     "caption": "Trevail wedding, fairy lights on the boathouse beams",
-     "date": "Wed 27 May",
-     "exif": "Wed 27 May 21:15, Merrowstone Boathouse"
-    },
-    {
-     "count": 1,
-     "kind": "plant",
-     "caption": "white sweet peas for the Hosken arch",
-     "date": "Tue 26 May",
-     "exif": "Tue 26 May 09:20"
-    },
-    {
-     "count": 1,
-     "kind": "selfie",
-     "caption": "Tuesday swimmers, blue lips",
-     "date": "Tue 26 May",
-     "exif": "Tue 26 May 07:05, harbour steps"
-    },
-    {
-     "count": 1,
-     "kind": "scene",
-     "caption": "Ruan's arch on the slipway",
-     "date": "Sat 23 May",
-     "exif": "Sat 23 May 10:30, Merrowstone slipway"
-    },
-    {
-     "count": 1,
-     "kind": "street",
-     "caption": "Selkie Row in the rain",
-     "date": "Fri 22 May",
-     "exif": "Fri 22 May 08:10, Selkie Row"
-    },
-    {
-     "count": 1,
-     "kind": "coffee",
-     "caption": "two pints at the Anchor",
-     "date": "Thu 21 May",
-     "exif": "Thu 21 May 20:15, the Anchor"
-    },
-    {
-     "count": 1,
-     "kind": "window",
-     "caption": "the back window after the stone, taped",
-     "date": "Sat 16 May",
-     "exif": "Sat 16 May 21:50, Merrowstone Boathouse"
-    },
-    {
-     "count": 1,
-     "kind": "beach",
-     "caption": "Elowen's twins card on the fridge",
-     "date": "Sun 12 Apr",
-     "exif": "Sun 12 Apr"
-    },
-    {
-     "count": 1,
-     "kind": "selfie",
-     "caption": "Elowen and me, Polgrain regatta",
-     "date": "Aug 2025",
-     "exif": "Aug 2025, regatta"
-    },
-    {
-     "count": 1,
      "caption": "Garnet's photo: Jago on the slipway wall, mooring gear piled beside him",
      "date": "Sat 6 Jun 22:57",
      "exif": "Taken 22:57 on Garnet's phone · saved here Saturday 23:21 from Garnet's chat",
@@ -10432,14 +10278,14 @@ window.CASES = [
      "caption": "the crab thing",
      "date": "Sat 6 Jun 20:40",
      "exif": "Sat 6 Jun 20:40, Ferrier's",
-     "kind": "scene"
+     "kind": "food"
     },
     {
      "count": 1,
      "caption": "Ferrier's corner table, Wenna pulling a face",
      "date": "Sat 6 Jun 20:31",
      "exif": "Sat 6 Jun 20:31, Ferrier's",
-     "kind": "scene"
+     "kind": "selfie"
     },
     {
      "count": 1,
@@ -10460,35 +10306,35 @@ window.CASES = [
      "caption": "Polgrain harbour at low water",
      "date": "Tue 2 Jun",
      "exif": "Tue 2 Jun 07:10, harbour steps",
-     "kind": "scene"
+     "kind": "street"
     },
     {
      "count": 1,
      "caption": "flask of tea on the harbour wall",
      "date": "Tue 2 Jun",
      "exif": "Tue 2 Jun 07:00, harbour steps",
-     "kind": "scene"
+     "kind": "coffee"
     },
     {
      "count": 1,
      "caption": "Gerald the seal",
      "date": "Tue 2 Jun",
      "exif": "Tue 2 Jun 06:33, harbour steps",
-     "kind": "scene"
+     "kind": "beach"
     },
     {
      "count": 1,
      "caption": "golden hour on the slipway",
      "date": "Mon 1 Jun",
      "exif": "Mon 1 Jun 20:58, Merrowstone slipway",
-     "kind": "scene"
+     "kind": "sunset"
     },
     {
      "count": 1,
      "caption": "Mum Caddick's sweet peas, sent by Ruan",
      "date": "Mon 1 Jun",
      "exif": "Screenshot, Mon 1 Jun",
-     "kind": "scene"
+     "kind": "plant"
     },
     {
      "count": 1,
@@ -10502,14 +10348,14 @@ window.CASES = [
      "caption": "Wenna's 'lamb' (pasta)",
      "date": "Sat 30 May",
      "exif": "Sat 30 May 19:30, Selkie Row",
-     "kind": "scene"
+     "kind": "food"
     },
     {
      "count": 1,
      "caption": "Trevail wedding, first dance",
      "date": "Wed 27 May",
      "exif": "Wed 27 May 21:40, Merrowstone Boathouse",
-     "kind": "scene"
+     "kind": "lights"
     },
     {
      "count": 1,
@@ -10523,14 +10369,14 @@ window.CASES = [
      "caption": "white sweet peas for the Hosken arch",
      "date": "Tue 26 May",
      "exif": "Tue 26 May 09:20",
-     "kind": "scene"
+     "kind": "plant"
     },
     {
      "count": 1,
      "caption": "Tuesday swimmers, blue lips",
      "date": "Tue 26 May",
      "exif": "Tue 26 May 07:05, harbour steps",
-     "kind": "scene"
+     "kind": "selfie"
     },
     {
      "count": 1,
@@ -10544,14 +10390,14 @@ window.CASES = [
      "caption": "Selkie Row in the rain",
      "date": "Fri 22 May",
      "exif": "Fri 22 May 08:10, Selkie Row",
-     "kind": "scene"
+     "kind": "street"
     },
     {
      "count": 1,
      "caption": "two pints at the Anchor",
      "date": "Thu 21 May",
      "exif": "Thu 21 May 20:15, the Anchor",
-     "kind": "scene"
+     "kind": "coffee"
     },
     {
      "count": 1,
@@ -10565,53 +10411,17 @@ window.CASES = [
      "caption": "Elowen's twins card on the fridge",
      "date": "Sun 12 Apr",
      "exif": "Sun 12 Apr",
-     "kind": "scene"
+     "kind": "beach"
     },
     {
      "count": 1,
      "caption": "Elowen and me, Polgrain regatta",
      "date": "Aug 2025",
      "exif": "Aug 2025, regatta",
-     "kind": "scene"
+     "kind": "selfie"
     }
    ],
    "notes": [
-    {
-     "title": "saturday",
-     "date": "Sunday 03:10",
-     "body": "I said leave it, I'll sign from the gate. He said he'd only tell Jago to leave us alone. He picked the mallet up off Jago's own pile, I didn't even see it in his hand. Elowen got between them. She'd only come down with his tea.",
-     "meta": null
-    },
-    {
-     "title": "if something happens",
-     "date": "Tue 2 Jun (last edit)",
-     "body": "16 May – stone through the back window, van drove off.\n18 May – blocked him. now he messages through Ennis.\n2 Jun – hanging round the slipway in the evening, Garnet saw him.\nHedra said: keep everything. write it down.",
-     "meta": null
-    },
-    {
-     "title": "Hosken wedding",
-     "date": "Fri 29 May",
-     "body": "arch by the water\n6 buckets white sweet peas\nmarquee drop Sat 6th 23:00, sign ground plan\nno pink. NO PINK.",
-     "meta": null
-    },
-    {
-     "title": "vows I'd never say out loud",
-     "date": "Sun 24 May",
-     "body": "slow is fine\nloud is fine\nyou can stay",
-     "meta": null
-    },
-    {
-     "title": "things to say to Jago if he turns up",
-     "date": "Wed 3 Jun",
-     "body": "it's over\nit's been over since March\nI'm not asking you to like it\nplease go home",
-     "meta": null
-    },
-    {
-     "title": "June bookings",
-     "date": "Mon 1 Jun",
-     "body": "13 Hosken\n20 Wedding Fair\n27 Pellowe (cancelled)",
-     "meta": null
-    },
     {
      "title": "saturday",
      "date": "Sunday 03:10",
@@ -10834,13 +10644,21 @@ window.CASES = [
     {
      "kind": "timeline",
      "date": "Saturday",
+     "note": null,
      "stops": [
       {
-       "time": null,
-       "place": ""
+       "time": "20:05 to 22:52",
+       "place": "Ferrier's"
+      },
+      {
+       "time": "23:10 to 23:40",
+       "place": "Merrowstone slipway"
+      },
+      {
+       "time": "23:55",
+       "place": "Polgrain police station"
       }
-     ],
-     "note": null
+     ]
     }
    ],
    "health": [],
@@ -10961,126 +10779,6 @@ window.CASES = [
      "time": "19:10",
      "dir": "in",
      "dur": "12 min",
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Emergency 999",
-     "date": "",
-     "time": "",
-     "dir": "out",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Perrin",
-     "date": "",
-     "time": "",
-     "dir": "missed",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Garnet",
-     "date": "",
-     "time": "",
-     "dir": "in",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Ruan",
-     "date": "",
-     "time": "",
-     "dir": "in",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Ruan",
-     "date": "",
-     "time": "",
-     "dir": "missed",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Ruan",
-     "date": "",
-     "time": "",
-     "dir": "missed",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Wenna",
-     "date": "",
-     "time": "",
-     "dir": "out",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Perrin",
-     "date": "",
-     "time": "",
-     "dir": "in",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Ennis",
-     "date": "",
-     "time": "",
-     "dir": "missed",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Lowenna Hosken",
-     "date": "",
-     "time": "",
-     "dir": "missed",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Ruan",
-     "date": "",
-     "time": "",
-     "dir": "in",
-     "dur": null,
-     "number": null,
-     "via": null,
-     "note": null
-    },
-    {
-     "name": "Wenna",
-     "date": "",
-     "time": "",
-     "dir": "in",
-     "dur": null,
      "number": null,
      "via": null,
      "note": null
